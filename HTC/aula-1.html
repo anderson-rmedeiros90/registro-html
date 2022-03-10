@@ -1,0 +1,73 @@
+<html lang="pt-BR">
+  <head>
+    <style>
+      h1 {
+        color: #c4302b;
+      }
+
+      h2 {
+        color: #ff6a26;
+      }
+
+      .field {
+        border: 1px solid #c4302b;
+        outline: none;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 180px;
+        height: 20px;
+      }
+
+      button {
+        width: 180px;
+        height: 20px;
+        cursor: pointer;
+        background-color: #ff6a26;
+        color: #ffffff;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 10px;
+        transition: 300ms;
+      }
+
+      button:hover {
+        background-color: #ffffff;
+        color: #ff5733;
+        border: 1px solid #ff5733;
+      }
+    </style>
+  </head>
+
+  <body>
+      <img width="250px" src="logo.jpg">
+    <h1>Registro HTC</h1>
+    <h2>Registre-se no melhor curso do Brasil</h2>
+    <form>
+      <label for="name-field">Nome</label>
+      <input id="name-field" />
+      <br />
+      <br />
+      <label for="email-field">E-mail</label>
+      <input type="email" id="email-field" />
+      <br />
+      <br />
+      <label for="password-field">Senha</label>
+      <input id="password-field" type="password" />
+      <br />
+      <br />
+      <label for="confirm-password-field">Confirmar Senha</label>
+      <input id="confirm-password-field" type="password" />
+      <br />
+      <br />
+      <input id="eula-field" type="checkbox" />
+      <label for="eula-field"
+        >Eu aceito os
+        <a target="_blank" href="eula.html">Termos de uso</a></label
+      >
+      <br />
+      <br />
+      <button>Registrar</button>
+    </form>
+  </body>
+</html>
